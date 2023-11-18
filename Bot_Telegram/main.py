@@ -4,7 +4,7 @@ import telebot
 import time
 from telebot import types
 
-bot = telebot.TeleBot('5929520133:AAGpq-gt6I40hlEWx7JgW5qUz4-st3MOTds')
+bot = telebot.TeleBot('YOUR_TOKEN')
 
 @bot.message_handler(commands=['help'])
 def help(message):
